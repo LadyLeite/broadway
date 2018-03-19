@@ -1,0 +1,103 @@
+/* Universal styles */
+
+html{
+  font-size: 16px;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: green;
+}
+
+/* Header */
+header nav{
+  height: 3rem;
+  position: fixed;
+  background-color: #5d585b;
+  width: 100%;
+  font-family: montserrat, arial, helvetica;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul li{
+  padding: 1rem;
+}
+
+/* Main Body */
+
+.container{
+  width: 100%;
+  padding-top: 3rem;
+  font-family: Helvetica;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-image:  url("../resources/background.png");
+}
+
+#mainHeading{
+  font-family: Montserrat, Arial, Helvetica;
+  text-shadow: 3px 2px #5d585b;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 4rem;
+  height: 18.5rem;
+  width: 100%;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+}
+
+.subContainer{
+  color: black;
+  font-family: quicksand, helvetica, arial;
+  background-color: white;
+  padding: 2rem;
+  width: 50%;
+  margin: 0rem auto;
+  border-radius: 8rem;
+  padding-bottom: 2rem;
+}
+
+.subContainer img{
+  padding: 2rem;
+}
+
+.subContainer p{
+  line-height: 2rem;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: grey;
+  height: 3rem;
+  background-color: #5d585b;
+  font-family: montserrat, arial, helvetica;
+}
+
+footer ul{
+  display: flex;
+}
+
+footer span{
+  padding-left: 2rem;
+}
